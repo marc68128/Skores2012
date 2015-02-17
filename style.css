@@ -1,0 +1,317 @@
+body {
+	
+
+}
+
+h1{
+	position: relative; 
+	top : 10px; 
+	color: #ffffff; 
+	font-size : 35px; 
+	text-align: center; 
+	font-family: "Berlin Sans FB Demi", "Arial Black", serif; 
+}
+
+
+#corps{
+	position: absolute; 
+}
+
+#home_logo2{
+	width: 400px; 
+	position : relative; 
+	top : -265px; 
+	left : 370px;	
+}
+
+#bio{
+	background-color: #00d8ff; 
+	width: 350px;
+	height: 300px;  
+	border-radius: 10px; 
+	box-shadow: -6px 6px 6px #898989;
+}
+
+#lineUp{
+	background-color: #ff740a; 
+	width: 350px;
+	height: 300px;  
+	position : relative; 
+	top : -590px; 
+	left : 790px;	
+	border-radius: 10px; 
+	box-shadow: -6px 6px 6px #898989;
+}
+
+#player{
+	border-radius: 10px; 
+	background-color: #00ff11; 
+	width: 400px;
+	height: 100px;
+	position: relative; 
+	top: -300px; 
+	left: 370px; 
+	box-shadow: -6px 6px 6px #898989;
+}
+
+#contact{
+	border-radius: 10px; 
+	background-color: #0000ff; 
+	width: 600px;
+	height: 200px;
+	position: relative; 
+	top: -600px; 
+	left: 270px; 
+	box-shadow: -6px 6px 6px #898989;
+}
+
+.LineUpPhoto{
+	width: 150px; 
+	height: 200px; 
+	position: relative; 
+	left: 20px; 
+	top: 0px; 
+	
+}
+
+.LineUpText{	
+	width: 150px; 
+	height: 200px; 
+	position: relative; 
+	left: 90px; 
+	top: -200px;
+	text-align: center; 
+	vertical-align: middle; 
+	font-family: "DejaVu Sans", "Berlin Sans FB Demi", "Arial Black", serif;
+	font-size: 15px; 
+}
+
+.LineUpText h2{
+	font-size: 20px; 
+	font-family: "Cooper Std Black", "Berlin Sans FB Demi", "Arial Black", serif; 
+}
+
+#textbio{
+	margin : 8px; 
+	font-family: "DejaVu Sans", "Tahoma", "Arial", serif;
+	font-size: 12px;
+	position: relative; 
+
+}
+
+#textbio span{
+	font-weight: bold; 
+}
+
+html, body, #bg, #bg table, #bg td {
+ height:100%;
+ overflow:hidden;
+ width:100%;
+}
+#bg {
+ height:100%;/*le div bg doit être deux fois plus grand que la taille de l'écran*/
+ width:100%;
+ left:0%;/*on le décale de la moitié de la taille de l'écran en haut et à gauche*/
+ top:0%;
+ position:absolute;
+ z-index:-200;/* pour qu'il soit toujours en dessous du reste du site*/
+}
+
+#bg td {
+ text-align:center; /* permet de centrer horizontalement l'image */
+ vertical-align:middle; /* permet de centrer verticalement l'image */
+}
+#bg img {
+ height:100%; /* l'image fera 50% de 200% de la taille de l'écran soit 100%   */
+ /*width:50%;  l'image fera 50% de 200% de la taille de l'écran soit 100%   */
+}
+
+
+
+.slides_container {
+    width:350px;
+    height:200px;
+}
+.slides_container div {
+    width:350px;
+    height:200px;
+    display:block;
+}
+
+
+#Mail{
+	height: 100px; 
+	width: 100px;
+	position: relative;  
+	border-radius: 15px;
+	left: 30px;
+	opacity: 0.8;
+}
+
+#Mail:hover{
+	height: 100px; 
+	width: 100px;
+	position: relative;  
+	border-radius: 15px;
+	left: 30px;
+	opacity: 1;
+}
+
+
+#Soundcloud{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -100px; 
+	left : 140px; 
+	opacity: 0.8; 
+	border-radius: 15px;
+}
+
+#Soundcloud:hover{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -100px; 
+	left : 140px; 
+	opacity: 1; 
+	border-radius: 15px;
+}
+
+#Facebook{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -200px; 
+	left : 250px; 
+	opacity: 0.8;
+	border-radius: 19px;
+}
+#Facebook:hover{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -200px; 
+	left : 250px; 
+	opacity: 1;
+	border-radius: 19px;
+}
+#Youtube{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -300px; 
+	left : 360px; 
+	opacity : 0.8; 
+	border-radius: 18px;
+}
+#Youtube:hover{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -300px; 
+	left : 360px; 
+	opacity : 1; 
+	border-radius: 18px;
+
+}
+#Myspace{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -400px; 
+	left : 470px;
+	border-radius: 17px;
+	opacity: 0.8;
+}
+
+#Myspace:hover{
+	height: 100px; 
+	width: 100px;
+	position: relative; 
+	top : -400px; 
+	left : 470px;
+	border-radius: 17px;
+	opacity: 1;
+}
+
+#FondPopUp{
+	display:none;
+	position: absolute; 
+	top:0px; 
+	left:0px;
+	height: 100%; 
+	width: 100%; 
+	background-color : rgba(0,0,0,0.5); 
+}
+
+#PopUp{
+	display:none;
+	background-color:white; 
+	border:10px solid grey; 
+	width: 60%; 
+	height: 60%; 
+	position:absolute; 
+	left: 20%; 
+	top:20%; 
+	z-index: 1000;
+	overflow:auto;
+	/*opacity:1;*/
+}
+
+#PopUp Img{
+	position:fixed; 
+	left: 20%;
+	/*margin-left:-5px; */
+	margin-top:-10px;
+	z-index:100000;
+}
+#PopUp Img:hover{
+	cursor:pointer;
+}
+#PopUp h1{
+	text-align:center; 
+	text-decoration:underline; 
+	color:black;
+	margin-bottom: 30px;
+}
+#PopUpGauche{
+	width:100%; 
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+#PopUpDroite{
+	width:55%; 
+	min-width:620px;
+	/*float:right;*/ 
+	position:relative; 
+	left:50%; 
+	margin-left:-310px;
+}
+
+#BandoInfo{
+	z-index:500; 
+	position:absolute; 
+	top:0px; 
+	left:0px;
+	height:3%; 
+	width:100%;
+	opacity: 0.6; 
+	background-color: #EAFF4F;
+	font-size:16px;
+	font-family: "DejaVu Sans", "Tahoma", "Arial", serif;
+	text-align:center; 
+	border: 2px outset #EAFF4F;
+}
+#BandoInfo:hover{
+	background-color: blue;
+	color: red;
+	border: 2px outset blue;
+	cursor:pointer;
+}
+
+#BandoInfo span{
+	font-weight:bold; 
+	font-size:1.1em;
+}
